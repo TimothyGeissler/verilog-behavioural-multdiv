@@ -46,8 +46,7 @@
            active <= 0;  
          end  
          cycle <= cycle - 5'd1;  
-       end  
-       else begin  
+       end else begin  
          // Set up for an unsigned divide.  
          cycle <= 5'd31;  
          result <= A;  
