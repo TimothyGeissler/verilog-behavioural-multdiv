@@ -1,0 +1,21 @@
+Test Number, OperandA, OperandB, Result, Exception, Exp Result, Exp Exception
+1,          1,          0,Timed Out,Timed Out,          0,1
+2,          0,          1,Timed Out,Timed Out,          0,0
+3,          1,          2,Timed Out,Timed Out,          0,0
+4,          2,         -4,Timed Out,Timed Out,          0,0
+5,          2,          1,Timed Out,Timed Out,          2,0
+6,         -4,          2,Timed Out,Timed Out,         -2,0
+7,          8,          4,Timed Out,Timed Out,          2,0
+8,         16,         -8,Timed Out,Timed Out,         -2,0
+9,         32,         16,Timed Out,Timed Out,          2,0
+10,        -64,         32,Timed Out,Timed Out,         -2,0
+11,        128,         64,Timed Out,Timed Out,          2,0
+12,        256,       -128,Timed Out,Timed Out,         -2,0
+13,        512,        256,Timed Out,Timed Out,          2,0
+14,      -1024,        512,Timed Out,Timed Out,         -2,0
+15,       2048,       1024,Timed Out,Timed Out,          2,0
+16,       4096,      -2048,Timed Out,Timed Out,         -2,0
+17,       8192,       4096,Timed Out,Timed Out,          2,0
+18,     -16384,       8192,Timed Out,Timed Out,         -2,0
+19,      32768,      16384,Timed Out,Timed Out,          2,0
+20,-2147483648,          2,Timed Out,Timed Out,-1073741824,0
